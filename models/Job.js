@@ -5,4 +5,4 @@ var jobSchema = mongoose.Schema({
     description: {type:String}
 });
 
-mongoose.model('Job', jobSchema);
+exports.model = mongoose.model('Job', jobSchema);
